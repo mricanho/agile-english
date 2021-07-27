@@ -1,3 +1,4 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"peerDependencies": true}] */
 import { combineReducers } from 'redux';
 import adminReducer from './admin';
 import uiSnackbarReducer from './uiSnackbar';
