@@ -52,7 +52,7 @@ const useStyles = makeStyles(() => ({
 
 }));
 
-const Types = () => {
+const Models = () => {
   const { lectureId } = useParams();
   const lectureIdParam = parseInt(lectureId, 10);
   const dispatch = useDispatch();
@@ -125,4 +125,4 @@ const Types = () => {
   return '';
 };
 
-export default Types;
+export default Models;
