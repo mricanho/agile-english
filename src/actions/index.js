@@ -62,6 +62,15 @@ export const toggleFormLoading = () => ({ type: types.FORM_LOADING });
 
 export const snackBarClear = () => ({ type: types.SNACKBAR_CLEAR });
 
+export const fetchLectureGroups = () => async (dispatch) => {
+  try {
+    const { data } = await Api({ ...GET_LECTURE_GROUPS() });
+    dispatch(createLectureGroups(data));
+  } catch (err) {
+    dispatch(snackBar(types.SNACKBAR_ERROR, 'Could not connect to back-end.'));
+  }
+};
+
 export const fetchAppointments = () => async (dispatch) => {
   dispatch(loadingAppointments());
   try {
