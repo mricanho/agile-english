@@ -7,6 +7,7 @@ import uiModalReducer from './uiModal';
 import lectureReducer from './lecture';
 import uiDrawerReducer from './uiDrawer';
 import appointmentsReducer from './appointments';
+import lectureGroupsReducer from './lectureGroups';
 
 const rootStore = combineReducers({
   admin: adminReducer,
@@ -16,6 +17,7 @@ const rootStore = combineReducers({
   uiDrawer: uiDrawerReducer,
   user: userReducer,
   appointments: appointmentsReducer,
+  lectureGroups: lectureGroupsReducer,
 });
 
 export default rootStore;
