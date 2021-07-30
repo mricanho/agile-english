@@ -16,3 +16,4 @@ export const MODAL_CLOSE = 'MODAL_CLOSE';
 export const FORM_LOADING = 'FORM_LOADING';
 export const FORM_ERROR = 'FORM_ERROR';
 export const DRAWER_TOGGLE = 'DRAWER_TOGGLE';
+export const SET_LECTURE_GROUPS = 'SET_LECTURE_GROUPS';

@@ -3,6 +3,7 @@ import Api, {
   REGISTER,
   GET_LECTURES,
   GET_APPOINTMENTS,
+  GET_LECTURE_GROUPS,
   POST_APPOINTMENT,
   saveUserToLocal,
   setBearerToken,
@@ -23,6 +24,11 @@ export const createAppointments = (appointments) => ({
 export const deleteAllAppointments = () => ({ type: types.DELETE_ALL_APPOINTMENTS });
 
 export const loadingAppointments = () => ({ type: types.LOADING_APPOINTMENTS });
+
+export const createLectureGroups = (lectureGroup) => ({
+  type: types.SET_LECTURE_GROUPS,
+  payload: lectureGroup,
+});
 
 export const snackBar = (type, message) => ({
   type,
