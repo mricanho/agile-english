@@ -182,8 +182,8 @@ const Navbar = ({ handleThemeChange }) => {
               <ListItemText primary="SHOP" />
             </ListItem>
           </Link>
-          <Link to="/booking" className={classes.link}>
-            <ListItem button selected={location === '/booking'}>
+          <Link to="/bookings" className={classes.link}>
+            <ListItem button selected={location === '/bookings'}>
               <ListItemText primary="BOOKING" />
             </ListItem>
           </Link>

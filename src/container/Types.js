@@ -28,7 +28,7 @@ const Types = () => {
   const lectureGroupIdParam = parseInt(lectureGroupId, 10);
   const dispatch = useDispatch();
   const { lectures, loading } = useSelector((state) => state.lectures);
-  const { lectureGroups } = useSelector((state) => state.lectureGroup);
+  const { lectureGroups } = useSelector((state) => state.lectureGroups);
   const classes = useStyles();
   const currentLectures = lectures.filter((lecture) => lecture.group[0].id === lectureGroupIdParam);
   const currentGroup = lectureGroups.filter((group) => group.id === lectureGroupIdParam);

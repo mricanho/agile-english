@@ -64,7 +64,7 @@ SwiperCore.use([Navigation]);
 const LectureGroup = () => {
   const classes = useStyles();
   const dispatch = useDispatch();
-  const { loading, lectureGroups } = useSelector((state) => state.lectureGroup);
+  const { loading, lectureGroups } = useSelector((state) => state.lectureGroups);
 
   React.useEffect(() => {
     if (loading) {
