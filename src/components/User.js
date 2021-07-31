@@ -11,7 +11,6 @@ import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import AppointmentsTable from './AppointmentsTable';
 import { fetchAppointments, logOut } from '../actions';
-import { ReactComponent as Logo } from '../assets/ae.png';
 
 const useStyles = makeStyles((theme) => ({
   form: {
@@ -52,7 +51,6 @@ const User = React.forwardRef((_props, ref) => {
 
   return (
     <Container tabIndex={-1} ref={ref} maxWidth="sm" className={classes.formContainer}>
-      <Logo className={classes.Logo} />
       <Typography variant="h5" align="center" gutterBottom>
         Account Settings
       </Typography>

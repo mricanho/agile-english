@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '2rem',
     marginBottom: '1rem',
   },
-  carHr: {
+  lectureHr: {
     border: 'dotted 5px',
     width: '30%',
     borderStyle: 'none none dotted none',
@@ -64,7 +64,8 @@ SwiperCore.use([Navigation]);
 const LectureGroup = () => {
   const classes = useStyles();
   const dispatch = useDispatch();
-  const { loading, lectureGroups } = useSelector((state) => state.LectureGroup);
+  const { loading, lectureGroups } = useSelector((state) => state.lectureGroup);
+
   React.useEffect(() => {
     if (loading) {
       dispatch(fetchLectureGroups());
@@ -75,7 +76,7 @@ const LectureGroup = () => {
   return (
     <div className={classes.wrapper}>
       <Typography variant="h3">
-        What kind of courses do you prefer?
+        What kind of lectures do you prefer?
       </Typography>
       <Typography variant="subtitle1" gutterBottom>
         Select from any of the Options
@@ -125,7 +126,7 @@ const LectureGroup = () => {
                     <Typography variant="h5" align="center" gutterBottom>
                       {lectureGroup.name}
                     </Typography>
-                    <hr className={classes.carHr} />
+                    <hr className={classes.lectureHr} />
                     <Typography variant="subtitle2" align="center">
                       {lectureGroup.description}
                     </Typography>

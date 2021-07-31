@@ -20,7 +20,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Tooltip from '@material-ui/core/Tooltip';
 import Button from '@material-ui/core/Button';
-import { ReactComponent as Logo } from '../assets/ae.png';
+import { ReactComponent as Logo } from '../assets/ae.svg';
 import { openModal, toggleDrawer } from '../actions';
 
 const drawerWidth = 240;
