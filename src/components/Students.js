@@ -113,7 +113,7 @@ const useStyles = makeStyles(() => ({
 
 }));
 
-const StudentL = () => {
+const Students = () => {
   const classes = useStyles();
   return (
     <Box
@@ -214,4 +214,4 @@ const StudentL = () => {
   );
 };
 
-export default StudentL;
+export default Students;
