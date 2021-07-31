@@ -28,7 +28,6 @@ const useStyles = makeStyles(() => ({
   gridItem: {
     height: '25vh',
     width: 'calc(25vh*1.2)',
-    // border: '1px solid black',
     zIndex: '1',
   },
   gridImage: {
@@ -51,6 +50,7 @@ const useStyles = makeStyles(() => ({
       borderLeft: '10px solid transparent',
       borderRight: '10px solid transparent',
       transform: 'translate(50%,-50%)',
+      color: 'white',
     },
   },
   thirdBox: {
