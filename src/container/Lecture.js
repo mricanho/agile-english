@@ -59,18 +59,13 @@ const Models = () => {
   const { lectures, loading } = useSelector((state) => state.lectures);
   const classes = useStyles();
   const currentLecture = lectures.filter((lecture) => lecture.id === lectureIdParam)[0];
-  const setImagesArray = React.useState([]);
-
-  const createImgArray = (imgUrl) => {
-    const array = [imgUrl];
-    return array;
-  };
+  const [setImagesArray] = React.useState([]);
 
   React.useEffect(() => {
     if (lectures.length <= 0) {
       dispatch(fetchAllLectures());
     } else {
-      setImagesArray(createImgArray(currentLecture.img_thumb));
+      setImagesArray.push(currentLecture.img_thumb);
     }
   }, [loading]);
 

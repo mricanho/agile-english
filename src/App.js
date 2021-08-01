@@ -23,7 +23,7 @@ import { getUserFromLocal } from './api';
 import { loginUser } from './actions';
 
 const App = () => {
-  const [theme, setTheme] = useState(darkTheme);
+  const [theme, setTheme] = useState(lightTheme);
   const dispatch = useDispatch();
 
   const handleThemeChange = () => {

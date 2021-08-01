@@ -95,7 +95,7 @@ const Bookings = () => {
             <br />
             The best certifications are here, you are gonna be native in no time!
             <br />
-            For Booking a Lesson use this &#8595;!.
+            For Booking a Lesson use this form &#8595;
           </Box>
           {showAppointments ? (
             <>

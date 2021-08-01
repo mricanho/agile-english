@@ -89,8 +89,8 @@ const Types = () => {
                 </Box>
               </Box>
               <Box justifySelf="flex-end" width="20%">
-                <Button variant="contained" color="secondary" component={Link} to={`/types/${lectureGroupId}/${lecture.id}`}>
-                  Choose this one
+                <Button variant="contained" color="secondary" component={Link} to="/bookings">
+                  Make an appointment
                 </Button>
               </Box>
             </Box>
