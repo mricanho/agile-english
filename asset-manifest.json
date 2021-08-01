@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/agile-english/static/css/main.6d0b894b.chunk.css",
+    "main.js": "/agile-english/static/js/main.856255dd.chunk.js",
+    "main.js.map": "/agile-english/static/js/main.856255dd.chunk.js.map",
+    "runtime-main.js": "/agile-english/static/js/runtime-main.6be3179b.js",
+    "runtime-main.js.map": "/agile-english/static/js/runtime-main.6be3179b.js.map",
+    "static/css/2.9e674fd9.chunk.css": "/agile-english/static/css/2.9e674fd9.chunk.css",
+    "static/js/2.6b4bc845.chunk.js": "/agile-english/static/js/2.6b4bc845.chunk.js",
+    "static/js/2.6b4bc845.chunk.js.map": "/agile-english/static/js/2.6b4bc845.chunk.js.map",
+    "index.html": "/agile-english/index.html",
+    "static/css/2.9e674fd9.chunk.css.map": "/agile-english/static/css/2.9e674fd9.chunk.css.map",
+    "static/css/main.6d0b894b.chunk.css.map": "/agile-english/static/css/main.6d0b894b.chunk.css.map",
+    "static/js/2.6b4bc845.chunk.js.LICENSE.txt": "/agile-english/static/js/2.6b4bc845.chunk.js.LICENSE.txt",
+    "static/media/ae.da28ed4f.svg": "/agile-english/static/media/ae.da28ed4f.svg",
+    "static/media/five.0a5db31f.jpg": "/agile-english/static/media/five.0a5db31f.jpg",
+    "static/media/four.fa76834b.jpg": "/agile-english/static/media/four.fa76834b.jpg",
+    "static/media/one.30e0d92d.jpg": "/agile-english/static/media/one.30e0d92d.jpg",
+    "static/media/student.f64d91de.png": "/agile-english/static/media/student.f64d91de.png",
+    "static/media/teach.37a2c66e.png": "/agile-english/static/media/teach.37a2c66e.png",
+    "static/media/three.c58598a8.jpg": "/agile-english/static/media/three.c58598a8.jpg",
+    "static/media/two.39f5ab95.jpg": "/agile-english/static/media/two.39f5ab95.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6be3179b.js",
+    "static/css/2.9e674fd9.chunk.css",
+    "static/js/2.6b4bc845.chunk.js",
+    "static/css/main.6d0b894b.chunk.css",
+    "static/js/main.856255dd.chunk.js"
+  ]
+}
