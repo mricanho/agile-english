@@ -36,11 +36,13 @@ const useStyles = makeStyles(() => ({
   },
   firstBox: {
     backgroundImage: `url(${One})`,
+    color: 'white',
   },
   secondBox: {
     backgroundColor: '#99C210',
     position: 'relative',
     zIndex: '2',
+    color: 'white',
     '&::after': {
       content: '""',
       position: 'absolute',
@@ -50,7 +52,7 @@ const useStyles = makeStyles(() => ({
       borderLeft: '10px solid transparent',
       borderRight: '10px solid transparent',
       transform: 'translate(50%,-50%)',
-      color: 'white',
+      color: '#FFFFFF',
     },
   },
   thirdBox: {
@@ -60,6 +62,7 @@ const useStyles = makeStyles(() => ({
     backgroundColor: '#FFC600',
     position: 'relative',
     zIndex: '2',
+    color: 'white',
     '&::after': {
       content: '""',
       position: 'absolute',
@@ -78,6 +81,7 @@ const useStyles = makeStyles(() => ({
     backgroundColor: '#252525',
     position: 'relative',
     zIndex: '2',
+    color: 'white',
     '&::after': {
       content: '""',
       position: 'absolute',
@@ -96,6 +100,7 @@ const useStyles = makeStyles(() => ({
     backgroundColor: '#10BBB5',
     position: 'relative',
     zIndex: '2',
+    color: 'white',
     '&::after': {
       content: '""',
       position: 'absolute',

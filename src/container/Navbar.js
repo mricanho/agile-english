@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2, 1),
   },
   logoContainer: {
-    width: '100%',
+    width: '40%',
     height: '150px',
   },
   logo: {

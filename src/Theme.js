@@ -11,7 +11,7 @@ export const darkTheme = createTheme({
       main: '#81C4FF',
     },
     action: {
-      selected: '#C82D2B',
+      selected: '#FFB421',
     },
   },
   typography: {
@@ -24,17 +24,19 @@ export const lightTheme = createTheme({
   palette: {
     type: 'light',
     primary: {
-      main: '#81C4FF',
-      dark: 'rgb(22,88,142)',
+      main: '#FFB421',
+      dark: '#000000',
     },
     secondary: {
-      main: 'rgb(22,88,142)',
+      main: '#B2B2B2',
     },
     action: {
-      selected: '#81C4FF',
+      selected: '#96B721',
+      color: '#000000',
     },
   },
   typography: {
     fontFamily: '"Cabin", "Roboto", "Helvetica", "Arial", sans-serif',
+    fontWeightRegular: 600,
   },
 });

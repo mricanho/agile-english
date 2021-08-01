@@ -7,7 +7,8 @@ import Student from '../assets/student.png';
 
 const useStyles = makeStyles(() => ({
   container: {
-    backgroundColor: 'rgba(151,197,35, 0.7)',
+    backgroundColor: '#FFB421',
+    color: 'white',
     '&::after': {
       content: '""',
       position: 'fixed',

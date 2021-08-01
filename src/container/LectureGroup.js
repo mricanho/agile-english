@@ -34,6 +34,9 @@ const useStyles = makeStyles((theme) => ({
     padding: '0 4rem',
     position: 'relative',
   },
+  swiperNext: {
+    backgroundColor: '#96B721',
+  },
   titleHr: {
     border: 'dotted 5px',
     width: '10%',

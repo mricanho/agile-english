@@ -34,7 +34,7 @@ code {
   justify-content: center;
   top: 50%;
   z-index: 400;
-  background-color: rgb(1, 80, 127);
+  background-color: #96B721;
   height: 60px;
   width: 70px;
   font-size: 18px;
@@ -68,6 +68,16 @@ code {
   display: none;
   background-color: grey;
 }
+
+.MuiButton-containedSecondary {
+  background-color: #96B721 !important; 
+  color: white !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: white !important;
+}  
+
 
 @media screen and (max-width: 769px) {
   .swiperNext {

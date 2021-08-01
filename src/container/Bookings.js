@@ -16,7 +16,7 @@ import Teach from '../assets/teach.png';
 
 const useStyles = makeStyles(() => ({
   container: {
-    backgroundColor: '#373485',
+    backgroundColor: '#97BF23',
     zIndex: '0',
     '&::after': {
       content: '""',
