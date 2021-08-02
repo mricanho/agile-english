@@ -1,6 +1,6 @@
 # Agile English
 
-Agile English is a website in which you can book a lecture with a professional English teacher, created it in React with Redux, this single-page application uses  an API build it in Ruby on Rails, here is the [Back-end repository](https://github.com/mricanho/ae-backend/tree/feature).
+Agile English is a website in which you can book a lecture with a professional English teacher, created it in React with Redux, this single-page application uses an API build it in Ruby on Rails, here is the [Back-end repository](https://github.com/mricanho/ae-backend/tree/feature).
 
 ![image](./screenshot.png)
 
