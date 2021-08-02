@@ -6,7 +6,7 @@ Agile English is a website in which you can book a lecture with a professional E
 
 ## Live demo
 
-[live demo](https://mricanho.github.io/agile-english/#/agile-english/types)
+[live demo](http://miguel-ae-frontend.herokuapp.com/#/agile-english/types)
 
 ## Built With
 
