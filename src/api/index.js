@@ -2,8 +2,11 @@ import Axios from 'axios';
 
 export * from './endpoints';
 
+const baseURL = process.env.NODE_ENV === 'production'
+  ? 'https://agile-english-api.herokuapp.com/api/v1/' : 'http://localhost:3000/api/v1/';
+
 const api = Axios.create({
-  baseURL: 'https://agile-english-api.herokuapp.com/api/v1/',
+  baseURL,
   headers: {
     Accept: 'application/json',
   },

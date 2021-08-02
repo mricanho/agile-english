@@ -71,8 +71,6 @@ const AppointmentsTable = ({ appointments }) => {
           <TableRow>
             <TableCell align="left">Date (DD/MM)</TableCell>
             <TableCell align="left">Time</TableCell>
-            <TableCell align="left">Where</TableCell>
-            <TableCell align="left">Address</TableCell>
             <TableCell align="left">Lecture</TableCell>
             <TableCell align="left">Action</TableCell>
           </TableRow>
