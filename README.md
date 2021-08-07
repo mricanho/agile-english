@@ -1,44 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Agile English
 
-## Available Scripts
+Agile English is a website in which you can book a lecture with a professional English teacher, created it in React with Redux, this single-page application uses an API build it in Ruby on Rails, here is the [Back-end repository](https://github.com/mricanho/ae-backend/tree/feature).
 
-In the project directory, you can run:
+![image](./screenshot.png)
 
-### `yarn start`
+## Live demo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[live demo](https://mricanho.github.io/agile-english/#/agile-english/types)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Built With
 
-### `yarn test`
+- JavaScript
+- HTML
+- CSS
+- React
+- Redux
+- Material-UI
+- Package.json
+- Jest
+- Axios
+- Thunk
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to start the project from your Local environment
 
-### `yarn build`
+- Open your terminal and cd where you want to store the project
+- Run the following command - `git clone https://github.com/mricanho/agile-english`
+- Cd into the directory - `cd agile-english`
+- Run `npm install` to install all dependencies
+- On the console run `npx eslint --fix` to fix all the trailing space added by GitHub
+- Run `npm start`, this automatically open your browser, and the app
+- If not, open your browser manually and copy pase http://localhost:3000
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+👤 **Miguel Ricaño**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Github: [@mricanho](https://github.com/mricanho)
+- Linkedin: [Miguel Ricaño](https://www.linkedin.com/in/mricanho/)
+- Website: [Live Website](https://www.miguelricano.me)
 
-### `yarn eject`
+## 🤝 Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Contributions, issues, and feature requests are welcome!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Show your support
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Give a star if you :star: like this project!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Acknowledgments
 
-## Learn More
+- Microverse
+- Design idea by [Murat Korkmaz on Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is [MIT](LICENSE) licensed.
